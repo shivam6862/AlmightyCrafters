@@ -1,0 +1,22 @@
+.list {
+  list-style: none;
+  padding: 0;
+  margin: 0px auto ;
+  display: flex;
+  flex-direction: row;
+}
+
+.list :nth-child(even){
+  width: 60%;
+  height: 60%;
+}
+
+@media screen and (max-width: 1040px) {
+
+}
+@media screen and (max-width: 770px) {
+  .list{
+    display: flex;
+    flex-direction: column-reverse;
+  }
+}

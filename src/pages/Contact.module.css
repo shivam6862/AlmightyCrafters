@@ -1,0 +1,83 @@
+.contacts {
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 2em;
+  border-bottom: 3px solid rgb(216, 194, 194);
+}
+.description p {
+  margin: 0 0 41px;
+  font-size: 24px;
+  line-height: 34px;
+}
+.title {
+  display: flex;
+  justify-content: center;
+  margin: 2em 0 0 0;
+  font-family: sans-serif;
+}
+.description {
+  text-align: center;
+  display: flex;
+  margin: 4em 2em 1em 2em;
+}
+.contactspart {
+  display: flex;
+  gap: 2em;
+  margin-left: 2em;
+}
+.contactspart > div {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+.contactspart h3 {
+  color: #ffffffcc;
+}
+.contact a {
+  text-decoration: none;
+  color: white;
+}
+.contact {
+  display: flex;
+  gap: 1em;
+}
+.contact img {
+  height: 10%;
+  width: 10%;
+}
+.contact h5 {
+  margin: 0;
+  padding: 0;
+  font-size: 14px;
+}
+.contact a {
+  transition: all 0.3s ease-out;
+}
+.contact a:hover {
+  font-size: 1.4em;
+  transform: translateY(10px);
+}
+.social {
+  margin-top: 2.5em;
+  margin-bottom: 2em;
+  display: flex;
+  justify-content: center;
+  padding-left: 2em;
+  gap: 3em;
+}
+.title h3{
+  font-size: 3em;
+  padding: 0;
+  margin: 0;
+}
+@media screen and (max-width: 1040px) {
+  .contactspart {
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 770px) {
+  .social {
+    padding-left: 0em;
+  }
+}

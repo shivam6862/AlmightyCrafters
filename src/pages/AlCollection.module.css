@@ -1,0 +1,66 @@
+.collection {
+  margin-top: 4em;
+  padding-bottom: 2em;
+  border-bottom: 3px solid rgb(216, 194, 194);
+}
+.title {
+  display: flex;
+  justify-content: center;
+  margin: 2em 0;
+  font-family: sans-serif;
+}
+.btnDescription {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+.Totaldescription {
+  margin: 1em 10em 3em 10em;
+}
+.description {
+  text-align: center;
+}
+.description {
+  display: flex;
+  margin: 4em 2em 1em 2em;
+}
+p {
+  margin: 0 0 41px;
+  font-size: 24px;
+  line-height: 34px;
+}
+.collectionBtnCommon {
+  width: 35%;
+  margin: 0px auto;
+  border: 5px solid #d6d2d8;
+  padding: 0.5em 0.7em;
+  border-radius: 4px;
+  background: transparent;
+  color: white;
+  font-size: large;
+  text-align: center;
+  border-radius: 2em;
+}
+.title h3{
+  font-size: 3em;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+}
+@media screen and (max-width: 1040px) {
+  .Totaldescription {
+    margin: 1em 5em 1em 5em;
+  }
+  .collectionBtnCommon {
+    width: 40%;
+  }
+}
+@media screen and (max-width: 770px) {
+  .Totaldescription {
+    margin: 1em 1em 1em 1em;
+  }
+  .collectionBtnCommon {
+    width: 70%;
+  }
+}

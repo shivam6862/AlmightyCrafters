@@ -1,0 +1,20 @@
+.images {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+  margin-bottom: 2em;
+}
+
+.loadingspinner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@media screen and (max-width: 1040px) {
+}
+@media screen and (max-width: 770px) {
+  .images {
+    flex-direction: row;
+  }
+}

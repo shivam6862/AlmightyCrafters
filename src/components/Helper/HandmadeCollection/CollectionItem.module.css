@@ -1,0 +1,64 @@
+.item {
+  border: solid transparent;
+  border-radius: 10px;
+  padding: 1.2em 1.2em;
+  border: 2px solid rgba(255, 255, 255, 0.15);
+  border-radius: 10px;
+  margin: 3.5px;
+  overflow: hidden;
+}
+
+.image img {
+  cursor: pointer;
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  transition: transform 0.5s;
+}
+
+.image :hover {
+  transform: scale(1.17);
+  filter: drop-shadow(3px 3px 3.5px rgb(180, 180, 180));
+}
+.item:hover {
+  filter: drop-shadow(3px 3px 3px rgb(0, 0, 0));
+}
+@media screen and (max-width: 1040px) {
+  .item {
+    padding: 0.6em 0.6em;
+  }
+  .image :hover {
+    transform: scale(1.14);
+    filter: drop-shadow(2px 2px 2px rgb(180, 180, 180));
+  }
+}
+@media screen and (max-width: 770px) {
+  .item {
+    padding: 0.45em 0.45em;
+  }
+  .image :hover {
+    transform: scale(1.12);
+    filter: drop-shadow(2px 2px 2px rgb(180, 180, 180));
+  }
+}
+
+/* li {
+  margin: 0.5em;
+  padding: 0px;
+}
+.image {
+  gap: 1em;
+}
+
+.content {
+  padding-top: 0.5rem;
+}
+
+.content h3 {
+  font-size: 0.55rem;
+  color: rgb(58, 220, 217);
+}
+.content address {
+  font-size: 0.5rem;
+  color: rgb(58, 220, 217);
+} */
