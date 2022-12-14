@@ -54,7 +54,7 @@ const MainNavigation = () => {
               to="/"
               activeClassName={classes.active}
               onClick={() => {
-                setIsNavExpanded(!isNavExpanded);
+                setIsNavExpanded(false);
               }}
             >
               <div className={classes.logo1}>
@@ -67,7 +67,7 @@ const MainNavigation = () => {
               to="/home"
               activeClassName={classes.active}
               onClick={() => {
-                setIsNavExpanded(!isNavExpanded);
+                setIsNavExpanded(false);
               }}
             >
               Home
@@ -78,7 +78,7 @@ const MainNavigation = () => {
               to="/aim"
               activeClassName={classes.active}
               onClick={() => {
-                setIsNavExpanded(!isNavExpanded);
+                setIsNavExpanded(false);
               }}
             >
               Aim
@@ -89,7 +89,7 @@ const MainNavigation = () => {
               to="/register"
               activeClassName={classes.active}
               onClick={() => {
-                setIsNavExpanded(!isNavExpanded);
+                setIsNavExpanded(false);
               }}
             >
               Register
@@ -100,7 +100,7 @@ const MainNavigation = () => {
               to="/handmadeCollection"
               activeClassName={classes.active}
               onClick={() => {
-                setIsNavExpanded(!isNavExpanded);
+                setIsNavExpanded(false);
               }}
             >
               HandmadeCollection
@@ -111,7 +111,7 @@ const MainNavigation = () => {
               to="/alCollection"
               activeClassName={classes.active}
               onClick={() => {
-                setIsNavExpanded(!isNavExpanded);
+                setIsNavExpanded(false);
               }}
             >
               AlCollection
@@ -122,7 +122,7 @@ const MainNavigation = () => {
               to="/community"
               activeClassName={classes.active}
               onClick={() => {
-                setIsNavExpanded(!isNavExpanded);
+                setIsNavExpanded(false);
               }}
             >
               Community
