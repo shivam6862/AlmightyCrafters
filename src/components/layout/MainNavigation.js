@@ -1,4 +1,3 @@
-// https://blog.logrocket.com/create-responsive-navbar-react-css/
 import { NavLink } from "react-router-dom";
 import { useState } from "react";
 import React from "react";
@@ -51,39 +50,81 @@ const MainNavigation = () => {
       >
         <ul>
           <li className={classes.first}>
-            <NavLink to="/" activeClassName={classes.active}>
+            <NavLink
+              to="/"
+              activeClassName={classes.active}
+              onClick={() => {
+                setIsNavExpanded(!isNavExpanded);
+              }}
+            >
               <div className={classes.logo1}>
                 <img src="./pictures/Pagecoverphoto4.1.jpg" alt="logo"></img>
               </div>
             </NavLink>
           </li>
           <li>
-            <NavLink to="/home" activeClassName={classes.active}>
+            <NavLink
+              to="/home"
+              activeClassName={classes.active}
+              onClick={() => {
+                setIsNavExpanded(!isNavExpanded);
+              }}
+            >
               Home
             </NavLink>
           </li>
           <li>
-            <NavLink to="/aim" activeClassName={classes.active}>
+            <NavLink
+              to="/aim"
+              activeClassName={classes.active}
+              onClick={() => {
+                setIsNavExpanded(!isNavExpanded);
+              }}
+            >
               Aim
             </NavLink>
           </li>
           <li>
-            <NavLink to="/register" activeClassName={classes.active}>
+            <NavLink
+              to="/register"
+              activeClassName={classes.active}
+              onClick={() => {
+                setIsNavExpanded(!isNavExpanded);
+              }}
+            >
               Register
             </NavLink>
           </li>
           <li>
-            <NavLink to="/handmadeCollection" activeClassName={classes.active}>
+            <NavLink
+              to="/handmadeCollection"
+              activeClassName={classes.active}
+              onClick={() => {
+                setIsNavExpanded(!isNavExpanded);
+              }}
+            >
               HandmadeCollection
             </NavLink>
           </li>
           <li>
-            <NavLink to="/alCollection" activeClassName={classes.active}>
+            <NavLink
+              to="/alCollection"
+              activeClassName={classes.active}
+              onClick={() => {
+                setIsNavExpanded(!isNavExpanded);
+              }}
+            >
               AlCollection
             </NavLink>
           </li>
           <li>
-            <NavLink to="/community" activeClassName={classes.active}>
+            <NavLink
+              to="/community"
+              activeClassName={classes.active}
+              onClick={() => {
+                setIsNavExpanded(!isNavExpanded);
+              }}
+            >
               Community
             </NavLink>
           </li>
